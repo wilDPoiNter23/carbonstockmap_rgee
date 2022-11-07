@@ -1,5 +1,6 @@
 # carbonstockmap_rgee
 Replication code for the paper "Species-based mapping of carbon stocks in saltmarsh: Tianjin coastal zone as a case study". This framework's core principle is to include the remote sensing time-series images and in-situ data. Here, we follow the general idea of the “remote sensing-field” approaches and modify it according to saltmarsh carbon stock accounts.
+![WORKFLOW](https://user-images.githubusercontent.com/67305906/200231159-61fd4a5a-9246-46bd-8fed-17cd0bfd0d65.png)
 ##  STEP 1: Data preparation
 First, it combined all available Sentinel-2 time series images from 2019 to 2021 with position data from a vast number of field surveys to generate a classification dataset. Species of salt marsh plants (S. salsa, P. australis and S. alterniflora) were identified, found, and sampled during the field survey phase. Subsequent laboratory processing steps determined AGB, BGB and carbon conversion coefficients of sampled plants.
 ##  STEP 2: Classification in GEE
@@ -13,3 +14,4 @@ Finally, the map of plant carbon stocks in saltmarsh was obtained. Blue carbon i
 * R scripts, to process remotely-sensed data, train classification model into Google Earth Engine (need to download 'RGEE' package).
 * Create a Google account, if you do not have one, and require access to Earth Engine https://signup.earthengine.google.com.
 * Open the QGIS project files to replicate maps with the appropriate layout.
+![flowchart](https://user-images.githubusercontent.com/67305906/200231181-c97f9e92-7e3c-41dd-adb1-2b04a8da8f07.png)
